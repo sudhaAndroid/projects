@@ -53,7 +53,7 @@ public abstract class UICalendar extends LinearLayout {
     protected ImageView mBtnPrevMonth;
     protected ImageView mBtnNextMonth;
     protected ImageView mBtnPrevWeek;
-    protected ImageView mBtnNextWeek;
+    protected ImageView mBtnNextWeek; 
     protected ExpandIconView expandIconView;
 
     // Attributes
