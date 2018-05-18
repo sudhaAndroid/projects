@@ -240,7 +240,7 @@ public class CollapsibleCalendar extends UICalendar implements DatePickerDialog.
 
 
 
-        
+
         if (mAdapter != null) {
             mAdapter.refresh();
 
@@ -282,7 +282,6 @@ public class CollapsibleCalendar extends UICalendar implements DatePickerDialog.
             // set day view
             for (int i = 0; i < mAdapter.getCount(); i++) {
                 final int position = i;
-
                 if (position % 7 == 0) {
                     rowCurrent = new TableRow(mContext);
                     rowCurrent.setLayoutParams(new TableLayout.LayoutParams(
