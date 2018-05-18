@@ -237,6 +237,10 @@ public class CollapsibleCalendar extends UICalendar implements DatePickerDialog.
 
     @Override
     protected void reload() {
+
+
+
+        
         if (mAdapter != null) {
             mAdapter.refresh();
 
