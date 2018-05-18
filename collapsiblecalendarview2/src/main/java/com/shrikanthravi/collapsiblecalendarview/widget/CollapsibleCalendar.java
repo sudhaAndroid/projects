@@ -42,6 +42,9 @@ public class CollapsibleCalendar extends UICalendar implements DatePickerDialog.
 
     private boolean expanded=false;
 
+
+
+
     private int mInitHeight = 0;
 
     private Handler mHandler = new Handler();
